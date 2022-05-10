@@ -7,7 +7,8 @@
 }
 
 body {
-    background-color: #F0F0F0;
+    background-image: url('images/background.webp');
+    
 }
 
 .resume-contents {
@@ -18,10 +19,11 @@ body {
     grid-template-columns: repeat(7, 1fr);
 }
 
+
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #0A0000;
+    background-color: rgba(14,14,27,0.90);
     padding: 15px;
     border-radius: 40px 0px 0px 40px;
 }
@@ -29,7 +31,7 @@ body {
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #002828;
+    background-color: rgba(32, 72, 41, 0.90);
     border-radius: 0px 40px 40px 0px;
     padding: 15px;
 }
@@ -46,7 +48,7 @@ body {
 .profile .profile-image {
     width: 100%;
     border-radius: 50%;
-    border: 8px solid #1B2631;
+    border: 5px solid #80CE87;
 }
 
 .name {
@@ -60,7 +62,7 @@ body {
 }
 
 .profession {
-    color: #FDB44B;
+    color: #92E5A1;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -71,7 +73,7 @@ body {
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #FDB44B;
+    color: #92E5A1;
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -138,7 +140,7 @@ body {
 }
 
 .right-title {
-    color: #C2D6BF;
+    color: #22B455;
     font-size: 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -175,7 +177,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #3FD0BF;
+    color: #92E5A1;
     padding-bottom: .4rem;
 }
 
@@ -194,7 +196,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #3FD0BF;
+    color: #92E5A1;
     padding-bottom: .4rem;
 }
 
@@ -294,4 +296,3 @@ body {
         font-size: 18px;
     }
 }
-© 2022 GitHub, Inc.
